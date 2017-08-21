@@ -79,4 +79,26 @@ There’re some good integrators such as Euler method or Runge-Kutta method. How
 
 So in GAVLAB I used Symplectic Integrating method which is able to maintain the symplectic proporty of the planet’s canonical coordinate and canonical momentum ![](http://latex.codecogs.com/gif.latex?%28q%2C%20p%29).
 
+### SI2
 
+Actually SI2 is just Leap Frog algorithm.
+
+![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20q%5E%7B*%7D%20%26%3D%20q%28t_%7Bk-1%7D%29%20&plus;%20%5Cfrac%7B%5Ctau%7D%7B2%7D%5Cleft%28%20%5Cfrac%7B%5Cpartial%20T%7D%7B%5Cpartial%20p%7D%5Cright%29_%7Bp%3Dp%28t_%7Bk-1%7D%29%7D%20%5C%5C%20p%28t_%7Bk%7D%29%20%26%3D%20p%28t_%7Bk-1%7D%29%20-%20%5Cfrac%7B%5Ctau%7D%7B2%7D%5Cleft%28%20%5Cfrac%7B%5Cpartial%20V%7D%7B%5Cpartial%20q%7D%5Cright%29_%7Bq%3Dq%5E%7B*%7D%7D%20%5C%5C%20q%28t_%7Bk%7D%29%20%26%3D%20q%28t_%7Bk-1%7D%29%20&plus;%20%5Cfrac%7B%5Ctau%7D%7B2%7D%5Cleft%28%20%5Cfrac%7B%5Cpartial%20T%7D%7B%5Cpartial%20p%7D%5Cright%29_%7Bp%3Dp%28t_%7Bk%7D%29%7D%20%5Cend%7Baligned%7D)
+
+here ![](http://latex.codecogs.com/gif.latex?c_%7B1%7D%3Dc_%7B2%7D%3D%5Cfrac%7B1%7D%7B2%7D%5Cquad%20d_%7B1%7D%3D1%5Cquad%20d_%7B2%7D%3D0)
+
+And here's the how SI2 works.
+
+
+![](/TEX/SI2.png?raw=true "GAVLAB is simulating solar system with SI2")
+
+As you can see SI2(LeapFrog method) is not pretty stable for trajectory.
+The energy of planet will decrease as time goes by and finally fall into sun.
+So we have to increase the order of integration to get more precise solution.
+
+### SI4
+
+
+So we have to increase the order of integration to get more precise solution.#
+So we have to increase the order of integration to get more precise solution.#
+So we have to increase the order of integration to get more precise solution.
