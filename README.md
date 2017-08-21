@@ -25,3 +25,13 @@ Everything is random!
 It means we can simulate hundreds of planets 
 by typing several keys on the keyboard and then enjoy the universe and drink a cup of coffee.
 It's convenient!
+
+## How to run GAVLAB
+
+The first step of running GAVLAB is easy:get a computer. More specifi- cally, a computer with UNIX based system such as Mac OS or Linux system. Unfortunately GAVLAB cannot run on Windows system because there
+are a lot of libraries missing which I will list out later.
+
+Anyway Macintosh is the best choice. On a Mac computer all you have to do
+is double clicking the executable file named GAVLAB with the sun-shaped logo.
+
+![](/TEX/100.png?raw=true "Optional Title")
