@@ -98,7 +98,15 @@ So we have to increase the order of integration to get more precise solution.
 
 ### SI4
 
+The formula of SI4 was derived by Neri in 1987 and the difference equation is
 
-So we have to increase the order of integration to get more precise solution.#
-So we have to increase the order of integration to get more precise solution.#
-So we have to increase the order of integration to get more precise solution.
+![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20q%5Ei%20%26%3D%20q%5E%7Bi-1%7D%20&plus;%20%5Ctau%20c_%7Bi%7D%20%5Cfrac%7B%5Cpartial%20T%7D%7B%5Cpartial%20p%7D%5Cleft%28p%5E%7Bi-1%7D%20%5Cright%29%20%5C%5C%20p%5Ei%20%26%3D%20p%5E%7Bi-1%7D%20-%20%5Ctau%20d_%7Bi%7D%20%5Cfrac%7B%5Cpartial%20V%7D%7B%5Cpartial%20q%7D%5Cleft%28q%5E%7Bi%7D%20%5Cright%29%20%5Cquad%20i%3D1%2C2%5Cdots%204%20%5Cend%7Baligned%7D)
+
+and the coefficient is
+
+![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20c_%7B1%7D%20%26%3D%20c_%7B4%7D%3D%5Cfrac%7B1%7D%7B2%282-%5Csqrt%5B3%5D%7B2%7D%29%7D%2C%5Cquad%20c_%7B2%7D%3Dc_%7B3%7D%3D%5Cfrac%7B1-%5Csqrt%5B3%5D%7B2%7D%7D%7B2%282-%5Csqrt%5B3%5D%7B2%7D%29%7D%5C%5C%20d_%7B1%7D%20%26%3D%20d_%7B3%7D%3D%5Cfrac%7B1%7D%7B2-%5Csqrt%5B3%5D%7B2%7D%7D%2C%5Cquad%20d_%7B2%7D%3Dc_%7B3%7D%3D-%5Cfrac%7B%5Csqrt%5B3%5D%7B2%7D%7D%7B2-%5Csqrt%5B3%5D%7B2%7D%7D%2C%5Cquad%20d_%7B4%7D%3D0%20%5Cend%7Baligned%7D)
+
+![](/TEX/SI4.png?raw=true "GAVLAB is simulating solar system with SI4")
+
+So it's clearly that SI4 can handle the gravitational system simulation.
+The trajectory of mercury venus and earth can maintain perfect ellipse after long time.
