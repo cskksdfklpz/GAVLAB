@@ -110,3 +110,15 @@ and the coefficient is
 
 So it's clearly that SI4 can handle the gravitational system simulation.
 The trajectory of mercury venus and earth can maintain perfect ellipse after long time.
+
+### SI6
+
+The formula of SI6 was derived by Yoshida in 1990 and the difference equation is
+
+![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20q%5Ei%20%26%3D%20q%5E%7Bi-1%7D%20&plus;%20%5Ctau%20c_%7Bi%7D%20%5Cfrac%7B%5Cpartial%20T%7D%7B%5Cpartial%20p%7D%5Cleft%28p%5E%7Bi-1%7D%20%5Cright%29%20%5C%5C%20p%5Ei%20%26%3D%20p%5E%7Bi-1%7D%20-%20%5Ctau%20d_%7Bi%7D%20%5Cfrac%7B%5Cpartial%20V%7D%7B%5Cpartial%20q%7D%5Cleft%28q%5E%7Bi%7D%20%5Cright%29%20%5Cquad%20i%3D1%2C2%5Cdots%2010%20%5Cend%7Baligned%7D)
+
+here the coefficient is
+
+![](http://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20x_%7B0%7D%26%3D-%5Cfrac%7B%5Csqrt%5B3%5D%7B2%7D%7D%7B2-%5Csqrt%5B3%5D%7B2%7D%7D%2C%5Cquad%20x_%7B1%7D%3D%5Cfrac%7B1%7D%7B2-%5Csqrt%5B3%5D%7B2%7D%7D%5C%5C%20y_%7B0%7D%26%3D-%5Cfrac%7B%5Csqrt%5B5%5D%7B2%7D%7D%7B2-%5Csqrt%5B5%5D%7B2%7D%7D%2C%5Cquad%20y_%7B1%7D%3D%5Cfrac%7B1%7D%7B2-%5Csqrt%5B5%5D%7B2%7D%7D%5C%5C%20d_%7B1%7D%26%3Dd_%7B3%7D%3Dd_%7B7%7D%3Dd_%7B9%7D%3Dx_%7B1%7Dy_%7B1%7D%2C%5Cquad%20d_%7B2%7D%3Dd_%7B9%7D%3Dx_%7B0%7Dy_%7B1%7D%5C%5C%20d_%7B4%7D%26%3Dd_%7B6%7D%3Dx_%7B1%7Dy_%7B0%7D%2C%5Cquad%20d_%7B5%7D%3Dx_%7B0%7Dy_%7B0%7D%5C%5C%20c_%7B1%7D%26%3D%5Cfrac%7B1%7D%7B2%7Dd_%7B1%7D%2C%5Cquad%20c_%7B10%7D%3D%5Cfrac%7B1%7D%7B2%7Dd_%7B9%7D%5C%5C%20c_%7Bi%7D%26%3D%5Cfrac%7B1%7D%7B2%7D%5Cleft%28d_%7Bi-1%7D&plus;d_%7Bi%7D%20%5Cright%29%5Cquad%20i%3D2%2C3%2C%5Cdots%2C9%20%5Cend%7Baligned%7D)
+
+Detail of the algorithm above is provided in my blog ![cskksdfklpz](http://www.cskksdfklpz.com/blog/)
